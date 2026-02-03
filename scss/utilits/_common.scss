@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+h2 {
+  text-align: center;
+}
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+a, button, .button-selector {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.button-selector:hover {
+  background-color: var(--color-blue);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo a, .logo a:visited {
+  font-family: 'Raleway';
+  font-size: 26px;
+  color: var(--color-blue);
+  text-decoration: none;
+
+}
+.logo span {
+  color: var(--color-black);
+}
+footer .logo span {
+  color: var(--color-white);
+}
+img {
+object-position: center;
+object-fit:contain;
+width: 100%;
+height: auto;
+}

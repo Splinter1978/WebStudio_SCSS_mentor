@@ -1,0 +1,39 @@
+/* PORTFOLIO */
+.portfolio-select {
+  max-width: 575px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.button-selector {
+  border-radius: 5px;
+  border: 1px solid var(--color-gray);
+}
+.portfolio-item {
+  height: 404px;
+  flex-basis: calc((100% - 40px)/3);
+  box-shadow: 0px 0px 1px 1px  #eeeeee;
+  position: relative;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-item:hover {
+  box-shadow: 0px 0px 3px 1px  var(--color-gray);
+}
+.portfolio-item h3, .portfolio-item p {
+  margin-left: 24px;
+}
+
+.overtext {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 294px;
+  background-color: rgba(8, 193, 240, 0.5);
+  transform: scaleY(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: bottom center;
+}
+.portfolio-item>img:hover + .overtext, .overtext:hover {
+  transform: scaleY(1);
+}

@@ -1,0 +1,17 @@
+
+@keyframes current {
+  0% {
+    animation-play-state: paused;
+  }
+  20% {
+transform: scaleX(0);
+  transform-origin: bottom left;
+  }
+  80% {
+    transform: scaleX(100%);
+  transform-origin: bottom left;
+  }
+  100% {
+ animation-delay: 100ms;
+  }
+}
