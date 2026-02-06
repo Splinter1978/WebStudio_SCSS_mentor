@@ -11,8 +11,8 @@
   border: 1px solid var(--color-gray);
 }
 .portfolio-item {
-  height: 404px;
-  flex-basis: calc((100% - 40px)/3);
+  min-height: 404px;
+  flex-basis: 100%;
   box-shadow: 0px 0px 1px 1px  #eeeeee;
   position: relative;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
